@@ -43,6 +43,6 @@ is in your header. Put your own JavaScript file after the wp_head function.
 Make your own style by editing the stylesheet pagiMore.css included in the wp-pagiMore folder.
 
 == Screenshots ==
-slider.png
-no-slider.png
-settings.png
+1. pagiMore without slider (pages are fitting in container)
+2. pagiMore with slider (pages doesn't fit in container)
+3. Settings panel
