@@ -2,7 +2,7 @@
 Contributors: wearemrhenry
 Tags: pagiMore, navigation, pagination, slider, jQuery
 Requires at least: 2.8
-Tested up to: 2.8
+Tested up to: 2.9
 Stable tag: trunk
 
 A pagination plugin based on Lester Chan's paginav. This plugin adds a slider to the pagination when the number of pages won't fit in the container. 
