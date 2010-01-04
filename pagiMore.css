@@ -1,0 +1,30 @@
+#pagiMore					                  { font-size: 10px; width: 400px; margin: 20px 0; }
+#pagiMoreContent			              { overflow: hidden; width: 400px; }
+#pagiMoreSlider				              { margin-top: 10px; }
+#pagiMore ul				                { width: 400px; }
+#pagiMore ul li 			              { display: inline; float: left; margin: 0 5px; padding: 2px; background: #f9f9f9; width: 20px; text-align:center; border: 1px solid #777; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; }
+#pagiMore ul .current		            { background: #06c; color: #fff; }
+#pagiMore ul li a			              { color: #000; text-decoration: none;}
+#pagiMore ul li span.pagiMore-date	{ width: 120px; background: #e7e7e7; color: #000; position: absolute; z-index: 99; margin-left: -47px; /* margin-left is half of the width minus half of the outerwidth of #pagiMore ul */ margin-top: -35px; border: 1px solid #777; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; }
+
+.ui-slider								        { position: relative; }
+.ui-slider .ui-slider-handle			{ position: absolute; z-index: 2; width: 13px; height: 13px; cursor: col-resize; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; }
+.ui-slider .ui-slider-range				{ position: absolute; z-index: 1; display: block; border: 0; }
+
+.ui-slider-horizontal					          { height: 8px; }
+.ui-slider-horizontal .ui-slider-handle	{ top: -4px; margin-left: -6px; }
+
+.ui-widget-content						          { background: #f9f9f9; border: 1px solid #777; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; }
+
+.ui-state-default, .ui-widget-content .ui-state-default														                        { border: 1px solid #777; background: #e7e7e7; }
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus	{ border: 1px solid #777; background: #06c; }
+.ui-state-active, .ui-widget-content .ui-state-active														                          { border: 1px solid #777; background: #147; }
+
+/* required comment for clearfix to work in Opera */
+* html .ui-helper-clearfix	{ height: 1%; }
+.ui-helper-clearfix 		    { display: block; }
+/* end clearfix */
+
+/* padding fix */
+#pagiMore ul  { padding: 0; margin: 0;}
+/* end paddingfix */
